@@ -1,4 +1,5 @@
-FROM n8nio/n8n:latest
+# Use the ai-beta tag of the n8n Docker image
+FROM n8nio/n8n:ai-beta
 
 ARG PGPASSWORD
 ARG PGHOST
